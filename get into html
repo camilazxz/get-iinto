@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="12.css">
+</head>
+<body>
+    <div class="blue">
+        <div class="div2">
+        <div class="div">
+            <div class="img"><img src="https://cup.org.mk/trainings/5809_budget-participation.jpg"></div>
+        </div>
+        <div class="rest">
+            <div class="getinto"> <h2>Get iinto it today</h2></div>
+            <div class="there-is-no"> There is no charge or obligation upon registration.</div>
+            <div class="buttons"><button class="iconf"><i class="fa-brands fa-facebook" style="color: #ffff;"></i> Register with Facebook</button>
+            <button class="iconl"><i class="fa-brands fa-linkedin" style="color: #ffff;"></i> Register with Linkedln</button></div>
+            <div class="or">---------------- OR ----------------</div>
+            <br>
+            <br>
+            <label for="email"></label><input type="email" id="email" name="email" placeholder="Email" required>
+            <label for="phone"></label> <input type="phone" id="phone" name="phone" placeholder="Phone" required>
+            <div class="whattype"> <h3>What type of investor are you?</h3></div>
+            <div class="select"> Select the type of investor you are below</div>
+            <div class="radio-grid">
+                <div class="radio-item">
+                    <input type="radio"/>
+                    <span> Individuals</span>
+                    <div class="info-icon">
+                        <i class="fa-solid fa-info fa-xs" style="color: #929292;"></i>
+                        <span class="tooltip">i am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common</span>
+                    </div>
+                <div class="radio-item">
+                    <input type="radio"/>
+                    <span> Business</span>
+                    <div class="info-icon">
+                        <i class="fa-solid fa-info fa-xs" style="color: #929292;"></i>
+                    </div>
+                </div>
+                <div class="radio-item">
+                    <input type="radio"/>
+                    <span> IRA</span>
+                    <div class="info-icon">
+                        <i class="fa-solid fa-info fa-xs" style="color: #929292;"></i>
+                    </div>
+                </div>
+                <div class="radio-item">
+                    <input type="radio"/>
+                    <span> Trust</span>
+                    <div class="info-icon">
+                        <i class="fa-solid fa-info fa-xs" style="color: #929292;"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+           <div class="iagree"><input type="checkbox" id="iagree"><label for="iagree">I agree to the terms and receiving notifications from intoo <a href="#">View full terms</a></label></div>
+           <br>
+           <div class="createacc"><button type="submit"><h4>Create Account</h4></button></div>
+    </div>
+    </div>
+</body>
+</html>
